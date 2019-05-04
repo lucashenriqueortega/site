@@ -1,0 +1,145 @@
+/*salvar como estilos.css*/
+/*
+Vamos definir as configurações padrões do corpo da página,
+dos principais comandos e do parágrafo
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background: gray
+            	repeat-x;
+	font-family: Helvetica, sans-serif;
+	font-size: 70.5%;
+	color: #333;
+}
+header img{
+	width:100%;
+	height:350px;
+}
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*
+definição dos links
+*/
+a:link, a:visited {
+	color: #333;
+	background: gray;
+}
+
+nav  {
+	background:white;
+	font-size: 1.4em;
+	width:100%;
+	}
+
+nav h1 {
+    color: #ccc;
+}
+
+nav ul{
+	margin: 0px 0px 0px 200px;
+	padding: 10px;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	}
+
+nav li a {
+	color: #333;
+	text-decoration: none;
+}
+nav li a:link,nav li a:visited{
+	background-color:white;}
+
+nav li a:hover{
+	color:red;
+	text-shadow: red;
+    font-weight:bold;	
+}
+section{
+	margin: 0 auto;
+	padding: 10px;
+	width: 1024px;
+	background: gray;
+	border: 10px solid #808080;
+}
+
+article, aside {
+	width: 360px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+article {
+	float: left;
+	
+}	
+
+article  h1{
+	font-size: 2em;
+	
+}	
+
+article h2 {
+	font-size: 2em;
+	margin: 0 0 10px 0;
+}
+
+article p {
+	margin: 0 0 10px 0;
+}
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+
+aside {
+	float: right;
+	background: gray;
+}
+
+aside h2 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+}
+
+aside li {
+	margin: 0 20px 20px 0;
+	float: left;
+	border: 0px solid #ddd;
+}
+
+aside img {
+height: 300px;
+width: 300px;
+}
+
+footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+}
