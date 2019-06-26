@@ -1,12 +1,10 @@
-/*salvar como estilos.css*/
 /*
-Vamos definir as configurações padrões do corpo da página,
-dos principais comandos e do parágrafo
+estrutura do corpo da página
 */
 body {
 	margin: 0;
 	padding: 0;
-	background: gray
+	background: darkgray
             	repeat-x;
 	font-family: Helvetica, sans-serif;
 	font-size: 70.5%;
@@ -39,7 +37,7 @@ a:link, a:visited {
 }
 
 nav  {
-	background:white;
+	background:black;
 	font-size: 1.4em;
 	width:100%;
 	}
@@ -49,7 +47,7 @@ nav h1 {
 }
 
 nav ul{
-	margin: 0px 0px 0px 200px;
+	text-align: center;
 	padding: 10px;
 	font-size: 2em;
 	font-weight: bolder;
@@ -65,10 +63,10 @@ nav li a {
 	text-decoration: none;
 }
 nav li a:link,nav li a:visited{
-	background-color:white;}
+	background-color:black;}
 
 nav li a:hover{
-	color:red;
+	color:white;
 	text-shadow: red;
     font-weight:bold;	
 }
@@ -76,7 +74,7 @@ section{
 	margin: 0 auto;
 	padding: 10px;
 	width: 1024px;
-	background: gray;
+	background: lightsteelblue;
 	border: 10px solid #808080;
 }
 
@@ -115,9 +113,12 @@ article ul  li {
 
 aside {
 	float: right;
-	background: gray;
+	background: lightsteelblue;
 }
 
+aside h1 {
+	font-size: 2em;
+}
 aside h2 {
 	border-bottom: 5px solid #ccc;
 	margin: 0 0 20px 0;
@@ -131,8 +132,8 @@ aside li {
 }
 
 aside img {
-height: 300px;
-width: 300px;
+height: 50%;
+width: 90%;
 }
 
 footer {
@@ -142,4 +143,27 @@ footer {
 	border-top: 2px solid #ddd;
 	text-align: center;
 	color: #777;
+}
+img { 
+	max-width: 100%;
+}
+@media (max-width: 900px) {
+	
+	nav ul li {
+		display: block;
+	}
+	nav ul {
+		font-size: 1.5em;
+	}
+	section {
+		width: 90%;
+	}
+	header img {
+		height: 50%;
+	}
+	aside img {
+		height: 50%;
+		width: 90%;
+	}
+	
 }
